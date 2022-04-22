@@ -39,32 +39,18 @@
 -->
 
 <template data-id="page-1">
-  <h2>Just Text (HTML) </h2>
-  <p>No JavaScript used on this page</p>
-  <img src="images/KEA_logo_DK_Web.jpg" style="width: 700px;" alt="kea logo" />
+  <h2>Meant to demonstrate JavaScript Modules and the "singleton effect" </h2>
+  <input id="text"><button id="btn">Set Text (to demonstrate singleton)</button>
 </template>
 
 <template data-id="page-2">
   <h2>Page-2</h2>
-  <button id="t1-btn1" class="btn btn-primary">Set Content</button>
-  <h4 id="t1-content" style="margin-top: 1em;"></h4>
+  <h3 id="text"></h3>
 </template>
 
 <template data-id="page-3">
-  <h2>Page-3</h2>
-  <h3>Get all users</h3>
-  <p>This is what we did last time in the class</p>
-  <button id="btn-get-all" class="btn btn-secondary">Get All Users</button>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Phone</th>
-        <th>Street</th>
-        <th>City</th>
-      </tr>
-    </thead>
-    <tbody id="tbl-body">
-    </tbody>
-  </table>
+  <h2>Pagination Demo</h2>
+  <p>Add an empty table here, instead of the div below</p>
+  <div id="car_data"></div>
+  <div id="pagination_control"></div>
 </template>
